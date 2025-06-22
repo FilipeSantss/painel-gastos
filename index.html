@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Gastos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Painel de Gastos</h1>
+    <input type="text" id="descricao" placeholder="Descrição">
+    <input type="number" id="valor" placeholder="Valor">
+    <button onclick="adicionarGasto()">Adicionar</button>
+
+    <ul id="lista-gastos"></ul>
+
+    <h3>Total: R$ <span id="total">0.00</span></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
